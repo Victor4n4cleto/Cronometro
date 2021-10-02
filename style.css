@@ -1,0 +1,59 @@
+
+* {
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: url(subtle-prism.svg);
+    display: block;
+
+}
+
+.box {
+    
+    width: 800px;
+    padding: 10px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 20px;
+    
+}
+
+#seconds, #min {
+    font-size: 4px;
+}
+
+h1, h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+#seconds, #min {
+    font-size: 3em;
+    
+}
+
+button {
+    background: base color;
+    display: inline-block;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 18px 10px;
+    width: 180px;
+    margin: 10px;
+    transition: all 0.5s;
+    outline: none;
+}
+
+#start, #stop, #reset {
+    color: black;
+}
